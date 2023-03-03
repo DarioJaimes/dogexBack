@@ -7,5 +7,5 @@ AWS.config.update({
 
 module.exports = {
     AWS,
-    BUCKET: "dogex"
+    BUCKET: process.env.BUCKET,
 }
