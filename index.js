@@ -5,11 +5,7 @@ const port = 3000;
 
 
 app.get('/api/dogex', (req, res) => {
-  const users = [
-    { success: true, message: 'Welcome to the best software team' },
-  ];
-
-  res.json(users);
+  res.json({ success: true, message: 'Welcome to the best software team' });
 });
 
 app.listen(port, () => {
