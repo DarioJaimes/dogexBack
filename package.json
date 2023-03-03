@@ -1,0 +1,26 @@
+{
+  "name": "dogexBack",
+  "version": "1.0.0",
+  "description": "Dogex app backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarioJaimes/dogexBack.git"
+  },
+  "keywords": [],
+  "author": "Julian Jaimes <dario9934@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarioJaimes/dogexBack/issues"
+  },
+  "homepage": "https://github.com/DarioJaimes/dogexBack#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
